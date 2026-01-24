@@ -63,6 +63,8 @@ const displayPoint = (userWin, comp) => {
         board.style.backgroundColor = 'red'
         // localStorage.setItem('AI',AIScore)
     }
+
+    // best out of 5/10
     if(userScore==5 || AIScore==5){
         choices.forEach(choice=>
             choice.style.display = "none"
